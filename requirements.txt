@@ -1,0 +1,9 @@
+accelerate
+datasets
+torch
+tqdm
+transformers
+evaluate
+scikit-learn
+scipy
+python-dotenv
