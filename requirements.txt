@@ -1,9 +1,9 @@
 accelerate
-datasets
+datasets==4.0.0
 torch
 tqdm
-transformers
+transformers==5.17.0
 evaluate
-scikit-learn
-scipy
+scikit-learn==1.6.1
+scipy==1.16.3
 python-dotenv
