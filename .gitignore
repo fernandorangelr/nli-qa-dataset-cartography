@@ -238,3 +238,7 @@ dynamics_epoch_*.jsonl
 
 # Generated datasets (large, regenerable from run.py)
 snli_*.json
+*.json
+
+# Generated images
+*.png
