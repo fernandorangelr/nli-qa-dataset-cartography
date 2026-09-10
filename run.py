@@ -145,7 +145,7 @@ def main():
         # MNLI has two validation splits (one with matched domains and one with mismatched domains). Most datasets just have one "validation" split
         if dataset_id == ('glue', 'mnli'):
             eval_split = 'validation_matched'
-        elif dataset_id == ('facebook/anli',):
+        elif dataset_id in (('facebook/anli',), ('anli',)):
             eval_split = 'test_r1'
         else:
             eval_split = 'validation'
