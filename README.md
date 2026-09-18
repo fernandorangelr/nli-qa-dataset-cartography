@@ -34,6 +34,8 @@ Filtering to the Ambiguous Subset and mining hard negatives (Ambiguous Contrast)
 
 The clearest, most reproducible finding of this project is the baseline's below-chance ANLI performance despite near-90% in-domain accuracy: a concrete demonstration that high in-domain accuracy can mask reliance on dataset artifacts rather than genuine reasoning.
 
+*This repo also includes `report.pdf`, the original write-up submitted for the course. Its Table 2 reflects the checkpoints and evaluation split used at submission time; the table above reflects the most recent reproducible run of this same pipeline.*
+
 ## Attribution
 
 Base training and evaluation code (run.py, helpers.py) is adapted from Prof. Greg Durrett's fp-dataset-artifacts repository (https://github.com/gregdurrett/fp-dataset-artifacts), built for UT Austin's AI 388. My contribution includes the artifact diagnosis (n-gram analysis and hypothesis-only ablation), the CartographyCallback and cartography-based filtering, hard negative mining, single and multi-language back-translation augmentation, and the full comparative evaluation.
